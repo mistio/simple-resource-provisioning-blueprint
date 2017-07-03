@@ -162,12 +162,3 @@ node_templates:
         name: { get_input: mist_name }
         tags: { get_input: mist_tags }
         key: { get_input: mist_key }
-
-  key:
-    type: cloudify.mist.nodes.KeyPair
-    properties:
-      mist_config: *mist_config
-      resource_id: { get_input: mist_key }
-    relationships:
-      - type: cloudify.relationships.contained_in
-        target: vm
