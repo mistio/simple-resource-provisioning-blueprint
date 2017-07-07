@@ -157,7 +157,7 @@ node_templates:
         cloud_id: { get_input: mist_cloud }
         image_id: { get_input: mist_image }
         size_id: { get_input: mist_size }
-        location_id: ap-northeast-1
+        location_id: ap-northeast-1a
         name: { get_input: mist_name }
         tags: { get_input: mist_tags }
         key: { get_input: mist_key }
