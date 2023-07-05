@@ -24,7 +24,7 @@ tosca_definitions_version: cloudify_dsl_1_2
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 imports:
-  - https://www.getcloudify.org/spec/cloudify/3.3m5/types.yaml
+  - https://raw.githubusercontent.com/cloudify-cosmo/cloudify-manager/3.3-build/resources/rest-service/cloudify/types/types.yaml
   - https://raw.githubusercontent.com/mistio/cloudify-mist-plugin/master/plugin.yaml
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
